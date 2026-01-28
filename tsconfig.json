@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",                /* This sets the root for your paths */
+    "paths": {
+      "@pages/*": ["pages/*"],     /* Maps '@pages' to your actual pages folder */
+      "@tests/*": ["tests/*"]      /* Optional: maps '@tests' to your tests folder */
+    },
+    "allowJs": true,               /* Helpful if you mix JS and TS */
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ESNext"
+  }
+}

@@ -1,6 +1,6 @@
 import { expect, Expect, test } from '@playwright/test'
-import { LoginPage } from '../pages/LoginPage'
-import { InventoryPage } from '../pages/InventoryPage'
+import { LoginPage } from '@pages/LoginPage'
+import { InventoryPage } from '@pages/InventoryPage'
 
 test.describe.parallel('Inventory tests', () => {
   let loginPage: LoginPage
