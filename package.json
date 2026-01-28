@@ -1,0 +1,18 @@
+{
+  "name": "swag_labs",
+  "version": "1.0.0",
+  "description": "Automation testing",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "playwright test --config=playwright.config.ts --project=Chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0",
+    "prettier": "^3.6.2"
+  }
+}
