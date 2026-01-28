@@ -9,6 +9,7 @@ jobs:
 
     container:
       image: mcr.microsoft.com/playwright:v1.58.0-noble
+      options: --shm-size=1gb
 
     steps:
       - uses: actions/checkout@v4
